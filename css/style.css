@@ -83,6 +83,51 @@ header .container {
 }
 /* FINE STILI MAIN */
 /* INIZIO STILI FOOTER */
+/* FOOTER TOP */
+.background-footer {
+    background-color: rgb(35, 39, 42);
+}
+.container-footer-top {
+    padding: 10px 0px 40px 0px;
+}
+.row-footer-top {
+    height: 450px;
+}
+.col-30 {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(240, 128, 128);
+}
+.col-70 {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(32, 178, 170);
+}
+.row-col-70 {
+    display: flex;
+    height: 100%;
+}
+.col-25 {
+    width: 25%;
+    height: 100%;
+    border: 2px dashed white;
+}
+/* FOOTER BOTTOM */
+.background-footer-bottom {
+    margin-top: 2px;
+}
+.background-footer-bottom .container {
+    padding-top: 30px;
+}
+.row-footer-bottom {
+    justify-content: space-between;
+    background-color: rgb(127, 255, 212);
+}
+.row-footer-bottom .col {
+    padding: 5px 10px;
+    margin: 20px 0px;
+    background-color: rgb(255, 182, 193);
+}
 /* FINE STILI FOOTER */
 /* INIZIO STILI IN COMUNE */
 .container {
