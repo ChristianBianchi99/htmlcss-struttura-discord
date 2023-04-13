@@ -12,7 +12,7 @@ header {
     height: 100%;
     padding-bottom: 3px;
 }
-.container-header {
+header .container {
     padding: 15px 0px;
 }
 .row-header {
@@ -43,7 +43,7 @@ header {
 }
 .container-jumbotron {
     width: 50%;
-    padding: 50px 0;
+    padding: 50px;
     margin: auto;
 }
 .row-jumbotron {
@@ -55,10 +55,36 @@ header {
 }
 /* FINE STILI HEADER */
 /* INIZIO STILI MAIN */
+.container-main {
+    padding: 50px 0px;
+}
+.row-main {
+    height: 400px;
+}
+.col-60 {
+    width: 60%;
+    background-color: rgb(30, 144, 255);
+    height: 100%;
+}
+.col-40 {
+    width: 40%;
+    background-color: rgb(255, 192, 203);
+    height: 100%;
+}
+.background-colored {
+    background-color: rgb(211, 211, 211);
+}
+.row-main-4 {
+    height: 600px;
+}
+.row-main-4 .col {
+    width: 100%;
+    background-color: rgb(34, 139, 34);
+}
 /* FINE STILI MAIN */
 /* INIZIO STILI FOOTER */
 /* FINE STILI FOOTER */
-/* INIZIO STILI LAYOUT */
+/* INIZIO STILI IN COMUNE */
 .container {
     width: 70%;
     margin: auto;
@@ -69,4 +95,4 @@ header {
 .col {
     border: 2px dashed black;
 }
-/* FINE STILI LAYOUT */
+/* FINE STILI IN COMUNE */
