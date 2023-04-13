@@ -42,7 +42,7 @@ header .container {
     background-color: rgb(0, 0, 139);
 }
 .container-jumbotron {
-    width: 50%;
+    width: 55%;
     padding: 50px;
     margin: auto;
 }
@@ -64,12 +64,10 @@ header .container {
 .col-60 {
     width: 60%;
     background-color: rgb(30, 144, 255);
-    height: 100%;
 }
 .col-40 {
     width: 40%;
     background-color: rgb(255, 192, 203);
-    height: 100%;
 }
 .background-colored {
     background-color: rgb(211, 211, 211);
@@ -95,21 +93,17 @@ header .container {
 }
 .col-30 {
     width: 30%;
-    height: 100%;
     background-color: rgb(240, 128, 128);
 }
 .col-70 {
     width: 70%;
-    height: 100%;
     background-color: rgb(32, 178, 170);
 }
 .row-col-70 {
-    display: flex;
     height: 100%;
 }
 .col-25 {
     width: 25%;
-    height: 100%;
     border: 2px dashed white;
 }
 /* FOOTER BOTTOM */
@@ -139,5 +133,6 @@ header .container {
 }
 .col {
     border: 2px dashed black;
+    height: 100%;
 }
 /* FINE STILI IN COMUNE */
